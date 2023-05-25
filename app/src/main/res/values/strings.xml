@@ -1,3 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">ConstructionRiskAssessment</string>
+	<!-- loginfragment strings -->
+
+	<string name="app_name">Page 1</string>
+	<string name="ek_img_content">ExportKit Image</string>
+	<string name="login_ek1_string">Login</string>
+	<string name="login_ek2_string">Login</string>
+	<string name="new_here__register_string">New Here? Register</string>
+	<string name="forgot_password__string">Forgot Password?</string>
+	<string name="email_string">Email</string>
+	<string name="password_string">Password</string>
+	<string name="login_ek3_string">Login</string>
+
+	<string name="send_your_report_string">Send your report</string>
+	<string name="upload_image_string">Upload image</string>
+	<string name="type_of_hazard__string">Type of hazard:</string>
+	<string name="description__string">Description:</string>
+	<string name="severity_level__string">Severity Level:</string>
+	<string name="low_string">Low</string>
+	<string name="moderate_string">Moderate</string>
+	<string name="high_string">High</string>
+	<string name="login_string">Submit</string>
+
 </resources>
