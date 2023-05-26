@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- line_1 from your XD file. -->
+<!-- _bg__riskassessmentfragment_ek2 from your XD file. -->
 <shape xmlns:android="http://schemas.android.com/apk/res/android"
 	android:shape="rectangle" >
-	<solid android:color="@color/risk_assessment_color" />
+	<solid android:color="@color/_bg__riskassessmentfragment_ek2_color" />
 </shape>
 
