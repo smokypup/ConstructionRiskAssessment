@@ -15,8 +15,10 @@
 			android:background="@drawable/RiskAssessmentFragment"
 			app:layout_constraintBottom_toBottomOf="parent"
 			app:layout_constraintEnd_toEndOf="parent"
+			app:layout_constraintHorizontal_bias="0.0"
 			app:layout_constraintStart_toStartOf="parent"
-			app:layout_constraintTop_toTopOf="parent">
+			app:layout_constraintTop_toTopOf="parent"
+			app:layout_constraintVertical_bias="0.0">
 
 
 			<ImageView
@@ -44,8 +46,10 @@
 				android:layout_height="wrap_content"
 				android:layout_marginLeft="130dp"
 				android:layout_marginTop="69dp"
+				android:shadowColor="#000000"
+				android:shadowRadius="10"
 				android:text="@string/report_1_string"
-				android:textColor="@color/report_1_color"
+				android:textColor="#FFFFFF"
 				android:textSize="36sp"
 				android:textStyle="bold|italic" />
 
@@ -108,7 +112,8 @@
 				android:layout_marginStart="33dp"
 				android:layout_marginTop="333dp"
 				android:background="@drawable/rectangle_10"
-				android:contentDescription="rectangle_10" />
+				android:contentDescription="rectangle_10"
+				android:radius="5dp" />
 
 			<TextView
 				android:id="@+id/edit"
@@ -123,13 +128,14 @@
 
 			<Button
 				android:id="@+id/submit_btn"
+				style="@android:style/Widget.Material.Button"
 				android:layout_width="wrap_content"
 				android:layout_height="wrap_content"
 				android:layout_marginLeft="145dp"
 				android:layout_marginTop="605dp"
-				android:background="@color/white"
+				android:background="#000000"
 				android:text="@string/login_string"
-				android:textColor="@color/login_color"
+				android:textColor="#FFFFFF"
 				android:textSize="36sp" />
 
 		</RelativeLayout>

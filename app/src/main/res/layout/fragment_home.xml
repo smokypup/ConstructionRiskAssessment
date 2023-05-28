@@ -99,6 +99,8 @@
 				android:layout_height="wrap_content"
 				android:layout_marginLeft="115dp"
 				android:layout_marginTop="125dp"
+				android:shadowColor="#FFFFFF"
+				android:shadowRadius="10"
 				android:text="@string/home_string"
 				android:textColor="@color/login_color"
 				android:textSize="70sp"
